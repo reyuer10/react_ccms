@@ -1,0 +1,83 @@
+
+body{
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+
+/* Center the casino logo */
+.casino-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Style for the logo image */
+.Logo {
+  /* height: 250px; */
+  height: 220px;
+  padding-bottom: 100px;
+}
+
+/* Form container with centered alignment and responsive width */
+.form-container {
+  display: flex;
+  flex-direction: column;
+
+  box-sizing: border-box;
+ 
+}
+
+/* Label styling */
+.label {
+ 
+  margin-bottom: 8px;
+  color: #ffffff;
+ 
+}
+
+/* Text box styling with consistent width and padding */
+.text-box {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 500px;
+  height: 30px;
+  padding: 4px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+/* Button styling with hover effect */
+.btn {
+  width: 500px;
+  height: 30px;
+  padding: 4px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  background-color: #1D4ED8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s; /* Fixed typo here */
+}
+/* Hover effect for the button */
+.btn:hover {
+  background-color: #3863fd; /* Slightly darker shade for hover effect */
+}
+.close-text {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.validation-message {
+  color: red;
+  margin-bottom: 16px;
+}
